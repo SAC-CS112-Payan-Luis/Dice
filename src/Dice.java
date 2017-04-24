@@ -10,7 +10,10 @@ public class Dice {
        public static void main(String[] args) {
         // Displays message to user
         JOptionPane.showMessageDialog( null, "Want to play guess number dice game?");
-        
+        // Please use int variables for these.
+              // Use array to maintain each guesses
+              // One array for user guesses, one for computer generated number
+              // Number of game played would be used as index to the arrays
         int [] ArraysToHoldValues = new int [6]; // int for row of arrays
             ArraysToHoldValues[0] = 0;// Stores number of game played
             ArraysToHoldValues[1] = 0;// Stores remainer of user's guess
